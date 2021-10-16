@@ -9,7 +9,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 	<!--====== Title ======-->
-	<title> Funden - Crowdfunding & Charity HTML Template || Home One </title>
+	<title>Convocation BUBT || Bangladesh University of Business and Technology</title>
+	<!--====== Fabicon ======-->
+	<link rel="shortcut icon" href="assets/img/logo/fabicon.png">
 	<!--====== Bootstrap css ======-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<!--====== Fontawesome css ======-->
@@ -19,6 +21,11 @@
 	<link rel="stylesheet" href="assets/css/footer.css" />
 	<!--====== Responsive css ======-->
 	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<!--====== Slider css ======-->
+	<link rel="stylesheet" type="text/css" href="assets/css/sl/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/sl/demo.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/sl/component.css" />
+	<script src="assets/js/sl/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -133,7 +140,27 @@
 	</header>
 	<!--====== Header End ======-->
 	<section>
-		<div style="height: 550px; background-color:thistle;"></div>
+		<div class="slider_sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="slider">
+							<div id="boxgallery" class="boxgallery" data-effect="effect-1">
+								<div class="panel"><img src="assets/img/slider/1.jpg" alt="Image 1"/></div>
+								<div class="panel"><img src="assets/img/slider/2.jpg" alt="Image 2"/></div>
+								<div class="panel"><img src="assets/img/slider/3.jpg" alt="Image 3"/></div>
+								<div class="panel"><img src="assets/img/slider/4.jpg" alt="Image 4"/></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4"  style="height: 400px; background-color:turquoise">
+						<div class="sidebar">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<!--====== Footer Start ======-->
@@ -174,7 +201,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer_content ptb-50">
+			<div class="footer_content ptb-40">
 				<div class="row">
 					<div class="col-md-2">
 						<div class="footer_widget">
@@ -253,9 +280,9 @@
 			</div>
 			<div class="copyright_content">
 				<div class="row">
-					<div class="copyright_inner">
+					<div class="copyright_inner container">
 						<div class="copyright">
-							<p>&copy; 2021 || Developed by <strong><a href="#">Team Crackers</a></strong></p>
+							<p>&copy; 2021 || Design & Developed by <strong><a href="#">Team Crackers</a></strong></p>
 						</div>
 						<div class="footer_social">
 							<ul class="footer_menu">
@@ -273,6 +300,12 @@
 	</footer>
 	<!--====== Footer End ======-->
 
+	<!--====== For Slider js =======-->
+	<script src="assets/js/sl/classie.js"></script>
+	<script src="assets/js/sl/boxesFx.js"></script>
+	<script>
+		new BoxesFx( document.getElementById( 'boxgallery' ) );
+	</script>
 	<!--====== jquery js ======-->
 	<script src="assets/js/jquery.min.js"></script>
 	<!--====== Bootstrap js ======-->

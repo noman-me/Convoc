@@ -21,19 +21,15 @@
         ## Mobile Panel
         ## Sticky Header
         ## Transparent Header
-    ## Project
-        ## Project Item
-        ## Project One
-        ## Project Two
-        ## Project Three
-        ## Project Four
-        ## Project Section
-        Emergency Project With CTA
-        ## Project Slider Arrow
-        ## Project Details
-    ## Counter
-        ## Counter Boxes
+    ## Slider Section
+        ## Slider
         ## Counter Section
+        ## 
+        ## 
+        ## 
+    ## 
+        ## 
+        ## 
     ## Testimonial
         ## Testimonial Box
         ## Testimonial Box Two
@@ -156,8 +152,23 @@ a:hover {
 .ptb-20 {
   padding: 20px 0px;
 }
+.ptb-30 {
+  padding: 30px 0px;
+}
+.ptb-40 {
+  padding: 40px 0px;
+}
 .ptb-50 {
   padding: 50px 0px
+}
+.ptb-60 {
+  padding: 60px 0px;
+}
+.ptb-70 {
+  padding: 70px 0px;
+}
+.ptb-80 {
+  padding: 80px 0px;
 }
 
 /*======= Keyframes =======*/
@@ -410,7 +421,11 @@ a:hover {
 header {
   border-bottom: 1px solid lightgray;
 }
-
+.navbar-wrapper {
+	/* z-index: 9999 auto; */
+	/* z-index: 999 !important; */
+	background-color: #fff;
+}
 /*======= Mobile Panel =======*/
 .mobile-menu-panel {
   position: fixed;
@@ -419,7 +434,7 @@ header {
   width: 280px;
   height: 100vh;
   background-color: var(--secondary-color);
-  z-index: 999;
+  z-index: 9999;
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-transition: all 0.3s;
@@ -566,4 +581,15 @@ header {
 
 .sticky-header.sticky-on.transparent-header .navbar-inner {
   border-color: transparent;
+}
+
+
+/*======= Slider Section =======*/
+section {
+	padding: 0px !important;
+	text-align: center;
+	background-color: #fff;
+}
+.slider {
+	min-height: 200px;
 }

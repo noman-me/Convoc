@@ -71,7 +71,7 @@ footer {
 }
 .list li a {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 25px;
   text-transform: capitalize;
 }
@@ -80,7 +80,7 @@ footer {
 	transition: all 0.3s ease 0s;
 }
 .list {
-  margin-top: 30px;
+  margin-top: 18px;
 }
 .footer_widget > p {
   font-family: 'Roboto', sans-serif;
@@ -112,8 +112,7 @@ footer {
   -webkit-box-pack: justify;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  padding: 0px 15px;
+  height: 70px;
 }
 .copyright > p {
   color: #fff;
