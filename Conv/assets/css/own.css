@@ -716,9 +716,13 @@ animation: animate 2s linear infinite;
 .msge_info h4 {
   font-weight: 600;
 }
+.msge_info h6 {
+	opacity: 0.5;
+	font-size: 14px;
+}
 .msge_info h5 {
   font-style: italic;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
 }
 .msge_info p {
@@ -744,8 +748,77 @@ animation: animate 2s linear infinite;
 }
 
 
+/*======= Page Header section =======*/
+.page_head_bg {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.page_head {
+  z-index: 22;
+}
+.ph_title {
+  margin-bottom: 15px;
+}
+.ph_title h2 {
+	color: #fff;
+	font-family: var(--primary-font);
+	font-weight: 800;
+	font-size: 32px;
+	text-align: center;
+}
+.ph_menu {
+  display: flex;
+  justify-content: center;
+}
+.ph_menu h5{
+  font-size: 15px;
+  color: #bbb;
+  font-weight: 700;
+  padding: 0px 5px;
+}
+.ph_menu h5 a {
+	color: #2AC4B5;
+}
+.ph_menu h5 a:hover{
+  color: #fff;
+  transition: 0.3s;
+}
+.page_head_bg::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #010101;
+  opacity: 0.8;
+}
 
-
-
-
-
+/*======= list table =======*/
+.lab_lists table, .lab_lists th, .lab_lists td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: #222;
+	/* font-family: "Dosis"; */
+}
+.lab_lists th {
+  padding: 5px 15px;
+}
+.lab_lists td {
+  padding: 5px !important;
+}
+.lab_lists th {
+  background-color: #1872CC;
+  color: #fff;
+}
+.lab_lists table {
+  width: 100%;
+}
+.lab_lists table tr:hover {
+	background-color: #C5E3FF;
+	transition: 0.3s;
+}
