@@ -822,3 +822,32 @@ animation: animate 2s linear infinite;
 	background-color: #C5E3FF;
 	transition: 0.3s;
 }
+
+
+/*======= Registration area =======*/
+.registration_area {
+	height: 770px;
+}
+.check_width input {
+	width: 30px !important;
+	height: 30px;
+}
+.check_width label {
+	font-size: 33px;
+	margin-left: 15px;
+}
+.program_select {
+  width: 100%;
+  height: 47px;
+  color: #3f3f3f;
+  /* border: #c4c517; */
+  font-size: 13px;
+  padding: 0px 8px;
+  font-weight: 100;
+  /* margin-right: 14px; */
+}
+
+.half_width {
+  width: 50% !important;
+}
+
