@@ -681,3 +681,71 @@ animation: animate 2s linear infinite;
 	font-size: 14px;
 	line-height: 19px;
 }
+
+
+
+
+
+/*======= Message Section =======*/
+/*======= Section Title =======*/
+.sec_title h2 {
+  color: #3AA99E;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sec_title h2 span {
+  color: #1872CC;
+}
+
+/*======= guests info=======*/
+.msge_cart {
+  color: #222;
+  text-align: left;
+  background-color: #F8F9F9;
+  box-shadow: 0px 2px 4px 0px;
+}
+.msge_cart img {
+  width: 100%;
+  max-height: 370px;
+  border: 1px solid #F1F3F4;
+}
+.msge_info {
+  padding: 12px;
+  text-align: center;
+}
+.msge_info h4 {
+  font-weight: 600;
+}
+.msge_info h5 {
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 600;
+}
+.msge_info p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 23px;
+
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+}
+.msge_info a {
+  color: #2f8ae5;
+  padding-top: 7px;
+}
+.msge_info a:hover {
+  color: #1872CC;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
